@@ -1,0 +1,50 @@
+.friendList {display: flex;
+flex-direction: column;
+gap: 16px;
+margin: 24px auto;
+align-items: center;}
+
+.item {
+  width: 350px;
+  height: 60px;
+   border: 1px solid rgb(214, 214, 214);
+    border-radius: 4px;
+    background-color: rgb(244, 245, 245);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    gap: 30px;
+    padding: 18px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.name {font-size: 24px;
+    font-weight: 500;
+    color: rgb(72, 72, 72);}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  
+    
+}
+
+/* Зелений індикатор */
+.green {
+  background-color: green;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+/* Червоний індикатор */
+.red {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
